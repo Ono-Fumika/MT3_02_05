@@ -361,7 +361,7 @@ void DrawAABB(const AABB& aabb, const Matrix4x4& viewProjectionMatrix, const Mat
 	Novice::DrawLine((int)screenTopLF.x, (int)screenTopLF.y, (int)screenDownLF.x, (int)screenDownLF.y, color); // 縦線
 	Novice::DrawLine((int)screenTopRF.x, (int)screenTopRF.y, (int)screenDownRF.x, (int)screenDownRF.y, color);
 	Novice::DrawLine((int)screenTopLB.x, (int)screenTopLB.y, (int)screenDownLB.x, (int)screenDownLB.y, color);
-	Novice::DrawLine((int)screenTopLB.x, (int)screenTopLB.y, (int)screenDownLB.x, (int)screenDownLB.y, color);
+	Novice::DrawLine((int)screenTopRB.x, (int)screenTopRB.y, (int)screenDownRB.x, (int)screenDownRB.y, color);
 }
 
 // Windowsアプリでのエントリーポイント(main関数)
